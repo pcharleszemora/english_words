@@ -1,4 +1,4 @@
-/// Lists top English adjectives.
+/// Lists top Spanish adjectives.
 ///
 /// The list is sorted in order of frequency of use, descending.
 const List<String> adjectives = [

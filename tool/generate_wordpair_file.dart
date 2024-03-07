@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:english_words/english_words.dart';
+import 'package:spanish_words/spanish_words.dart';
 
 /// This simple tool builds a Dart file that is relatively self-contained
 /// (doesn't depend on this package, only on `dart:math` and `dart:ui`).

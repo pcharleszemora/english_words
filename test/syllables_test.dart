@@ -1,7 +1,7 @@
 // Copyright (c) 2017, filiph. All rights reserved. Use of this source code
 // is governed by a BSD-style license that can be found in the LICENSE file.
 
-import 'package:english_words/english_words.dart';
+import 'package:spanish_words/spanish_words.dart';
 import 'package:test/test.dart';
 
 import 'syllables/bulk_test_data.dart';
@@ -113,7 +113,7 @@ void _expectSyllables(Map<String, int> expectations) {
         .map<String>((word) =>
             word.padLeft(20) +
             ' counted as ${failures[word]} '
-            'instead of ${expectations[word]}')
+                'instead of ${expectations[word]}')
         .join('\n');
     fail("Failed on ${failures.length} of the ${expectations.length} words:\n"
         "$failuresList");

@@ -1,4 +1,4 @@
-/// Lists top English nouns.
+/// Lists top Spanish nouns.
 ///
 /// The list is sorted in order of frequency of use, descending.
 const List<String> nouns = [

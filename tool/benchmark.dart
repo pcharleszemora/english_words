@@ -1,5 +1,5 @@
 // import 'package:benchmark_harness/benchmark_harness.dart';
-// import 'package:english_words/english_words.dart';
+// import 'package:spanish/spanish_words.dart';
 //
 // void main() {
 //   SyllableBenchmark.main();

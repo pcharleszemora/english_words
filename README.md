@@ -1,15 +1,19 @@
-# english_words
+# spanish_words
 
-[![Build status](https://travis-ci.org/filiph/english_words.svg)](https://travis-ci.org/filiph/english_words)
+A package containing the most ~5000 used Spanish words and some utility
+functions. 
 
-A package containing the most ~5000 used English words and some utility
-functions.
+Spanish and English are the two most spoken languages in the United States of America.
 
+This repo contains the most ~5000 used English words: [filiph/english_words](https://github.com/filiph/english_words). 
+
+[This]((https://github.com/pcharleszemora/spanish_words)) repo is a fork of [that](https://github.com/filiph/english_words) repo for the purpose of containing the most ~5000 used Spanish words.
+ 
 ## Usage
 
-Printing the top 50 most used nouns in the English language:
+Printing the top 50 most used nouns in the Spanish language:
 
-    import 'package:english_words/english_words.dart';
+    import 'package:spanish/spanish_words.dart';
 
     main() {
       nouns.take(50).forEach(print);
@@ -24,9 +28,3 @@ Computing number of syllables in a word:
 Generating 5 interesting 2-syllable word combinations:
 
     generateWordPairs().take(5).forEach(print);
-
-## Features and bugs
-
-Please file feature requests and bugs at the [issue tracker][tracker].
-
-[tracker]: https://github.com/filiph/english_words/issues
